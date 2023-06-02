@@ -1,0 +1,125 @@
+/*
+
+-- TYPOGRAPHY --
+
+    FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+    FONT WEIGHT SYSTEM
+        Default : 400
+
+
+    LINE HEIGHT SYSTEM
+        Default : 1
+
+
+
+--COLORS
+
+    Primary : #226666
+    Tints : #3d9999 / #66cccc / #99e6e6 / #ccf2f2 / #e9f0f0
+    Shades : #004d4d / #003333 / #002626 / #001a1a
+    Accents : #ffcc00 / #ffdb4d / #ffe680 / #fff2cc
+    Greys : #333333 / #666666 / #999999 / #cccccc / #f2f2f2 / #ffffff
+
+
+
+
+-- SHADOWS
+
+
+
+-- BORDER RADIUS
+
+
+-- WHITESPACES
+    
+    SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+
+.HeroSection{
+    background-color: #e9f0f0;
+    padding: 8rem 0;
+}
+
+.Hero{
+    max-width: 130rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8rem;
+    align-items: center;
+}
+
+.HeroMainText{
+    font-size: 5.2rem;
+    font-weight: 600;
+    line-height: 1.05;
+    color: #333;
+    letter-spacing: -0.5px;
+    margin-bottom: 3.2rem;
+}
+
+.HeroSubText{
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+}
+
+
+.button:link, .button:visited{
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    text-decoration: none;
+    border-radius: 15rem;
+    transition: all 0.5s;
+}
+
+.button--main:link, .button--main:visited{
+    background-color: #226666;
+    color: #fff;
+}
+
+.margin--right{
+    margin-right: 2rem !important;
+}
+
+.button--main:hover, .button--main:active{
+    background-color: #184747;
+}
+
+.button--secondary:link, .button--secondary:visited{
+    background-color: #e9f0f0;
+    color: #226666;
+}
+
+.button--secondary:hover, .button--secondary:active{
+    background-color: #649494;
+    color: #fff;
+}
+
+.HeroImage{
+    width: 100%;
+}
