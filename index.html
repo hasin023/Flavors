@@ -5,22 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Lato:wght@400;700&family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/bowl-food.svg">
+    
     <link rel="stylesheet" href="Css/style.css"/>
-
-
-    <title>Flavors</title>
+    <title>Flavors - Find your Taste</title>
 </head>
 
 <body>
-    <section class="HeroSection">
-        <div class="Hero">
+    <header class="header">
+        <img class="logo" src="img/FlavorsWebsiteLogo.png" alt="Flavors logo"/>
+
+        <nav class="MainNav">
+            <ul class="navList">
+                <li><a class="navLink" href="#">How it Works</a></li>
+                <li><a class="navLink" href="#">Gallery</a></li>
+                <li><a class="navLink" href="#">Features</a></li>
+                <li><a class="navLink nav-cta" href="#">Visit Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="HeroSection">
+            <div class="Hero">
             <div class="HeroTextBox">
                 <h1 class="HeroMainText">A healthy meal idea in your diet, for Everyone</h1>
             <p class="HeroSubText">
-                The smart recipe look up anytime - anywhere that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. We have over 10000 million recipes.
+                The smart recipe look up anytime - anywhere that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.
             </p>
             <a href="#" class="button button--main margin--right">Look up Now</a>
             <a href="#" class="button button--secondary">Learn More &darr;</a>
+            <div class="ShowFoods">
+                <div class="FoodsImg">
+                    <img src="img/foods/Food1.jpg" alt="Food Image">
+                    <img src="img/foods/Food2.jpg" alt="Food Image">
+                    <img src="img/foods/Food3.jpg" alt="Food Image">
+                    <img src="img/foods/Food5.jpg" alt="Food Image">
+                    <img src="img/foods/Food6.jpg" alt="Food Image">
+                    <img src="img/foods/Food7.jpg" alt="Food Image">
+                </div>
+                <p class="recipetext"><span>1 million+</span> recipes to choose from!</p>
+            </div>
         </div>
         
         <div class="HeroImg">
@@ -28,6 +58,47 @@
         </div>
     </div>
     </section>
+
+    <section class="HowSection">
+        <div class="container">
+            <span class="SubHeading">How it Works</span>
+            <h2 class="SecondaryHeading">Find your favourites with simple steps</h2>
+        </div>
+
+        <div class="container grid grid--3-cols grid--center--v">
+
+
+            <!-- STEP 01 -->
+            <div class="step-text-box">
+                <p class="step-number">01</p>
+                <h3 class="TersiaryHeading">Search your desired meal</h3>
+                <p class="step-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, voluptates architecto ad officiis, ipsum minima delectus minus reiciendis quam maxime illum, nihil incidunt odit ipsa adipisci laborum fugiat blanditiis assumenda?</p>
+            </div>
+            
+
+            <!-- STEP 02 -->
+           
+            <div class="step-text-box">
+                <p class="step-number">02</p>
+                <h3 class="TersiaryHeading">Change number of Servings</h3>
+                <p class="step-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, voluptates architecto ad officiis, ipsum minima delectus minus reiciendis quam maxime illum, nihil incidunt odit ipsa adipisci laborum fugiat blanditiis assumenda?</p>
+            </div>
+
+
+            <!-- STEP 03 -->
+            <div class="step-text-box">
+                <p class="step-number">03</p>
+                <h3 class="TersiaryHeading">Check the source website</h3>
+                <p class="step-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias, voluptates architecto ad officiis, ipsum minima delectus minus reiciendis quam maxime illum, nihil incidunt odit ipsa adipisci laborum fugiat blanditiis assumenda?</p>
+            </div>
+            
+
+        </div>
+
+    </section>
+
+
+</main>
 
 
 </body>
