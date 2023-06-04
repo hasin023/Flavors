@@ -13,6 +13,11 @@
     
     <link rel="stylesheet" href="Css/style.css"/>
     <link rel="stylesheet" href="Css/queries.css"/>
+
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+    <script defer src="Js/script.js"></script>
+
     <title>Flavors - Find your Taste</title>
 </head>
 
@@ -24,9 +29,9 @@
 
         <nav class="MainNav">
             <ul class="navList">
-                <li><a class="navLink" href="#">How it Works</a></li>
-                <li><a class="navLink" href="#">Gallery</a></li>
-                <li><a class="navLink" href="#">Features</a></li>
+                <li><a class="navLink" href="#how-section">How it Works</a></li>
+                <li><a class="navLink" href="#gallery-section">Gallery</a></li>
+                <li><a class="navLink" href="#features-section">Features</a></li>
                 <li><a class="navLink nav-cta" href="#">Visit Now &rarr;</a></li>
             </ul>
         </nav>
@@ -43,7 +48,7 @@
                 The smart recipe look up anytime - anywhere that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.
             </p>
             <a href="#" class="button button--main margin--right">Look up Now</a>
-            <a href="#" class="button button--secondary">Learn More &darr;</a>
+            <a href="#footer-section" class="button button--secondary">Learn More &darr;</a>
             <div class="ShowFoods">
                 <div class="FoodsImg">
                     <img src="img/foods/Food1.jpg" alt="Food Image">
@@ -82,7 +87,7 @@
 
 
 
-    <section class="HowSection">
+    <section class="HowSection" id="how-section">
         <div class="container">
             <span class="SubHeading">How it Works</span>
             <h2 class="SecondaryHeading">Find your favourites with simple steps</h2>
@@ -127,7 +132,7 @@
     </section>
 
 
-    <section class="GallerySection">
+    <section class="GallerySection" id="gallery-section">
 
         <div class="gallery">
             <figure class="gallery-item">
@@ -213,7 +218,7 @@
 
 
 
-    <section class="FeatureSection">
+    <section class="FeatureSection" id="features-section">
         
         <div class="container">
             <span class="SubHeading">Features</span>
@@ -251,7 +256,7 @@
 
 </main>
 
-<footer class="footer">
+<footer class="footer" id="footer-section">
     <div class="container grid grid--footer">
         <div class="logo-column">
             <a href="#" class="footer-logo">
@@ -266,14 +271,15 @@
 
 
             <p class="copyright">
-                Copyright &copy; 2054 by Flavors, Inc. All rights reservd
+                Copyright &copy; <span class="year">2027</span> by Flavors, Inc. All rights reservd
             </p>
         </div>
 
         <div class="address-column">
             <p class="footer-heading">Contact Us</p>
             <address class="contacts">
-                <p class="address">Lorem ipsum dolor sit amet</p>
+                <p class="address">220 Adams Pointe Blvd #7
+                    Mars, Pennsylvania(PA), 16046</p>
                 <p>
                     <a class="footer-link" href="tel:xx-xxx-xxxx-xx">xx-xxx-xxxx-xx</a><br/>
                     <a class="footer-link" href="mailto:xxxx@xxxx.com">xxxx@xxx.com</a>
